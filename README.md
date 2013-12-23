@@ -27,23 +27,16 @@ Usage
 ==========
 
 1. Copy the files into your $HOME directory:
-
+`
 makedb.sh
-
 .irssi/
-
 |---config
-
 |-+-scripts/
-
 | |-irclogs.pl
-
 |---start.sh
-
 www/
-
 |---irclogs.php
-
+`
 
 2) Edit www/irclogs.php, makedb.sh, .irssi/irclogs.pl, and change the password set for mysql in those files.
 
