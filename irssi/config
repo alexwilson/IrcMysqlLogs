@@ -1,0 +1,30 @@
+servers = (
+	{
+		address = "irc.example.net";
+		chatnet = "example";
+		port = "6697";
+		use_ssl = "yes";
+		ssl_verify = "no";
+		autoconnect = "yes";  ##important
+	}
+);
+
+chatnets = {
+	StormBit = {
+		type = "IRC";
+		autosendcmd = "/^msg NickServ id LogBot logBotPass!;wait 1500 ;script load irclogs"; 
+	};
+};
+
+channels = (
+	{ name = "#example"; chatnet = "example"; autojoin = "Yes"; }
+);
+
+settings = {
+	core = {
+		real_name = "All channels I am in are being logged.";
+		user_name = "LogBot";
+		nick = "LoggerBot";
+	};
+	"fe-text" = { actlist_sort = "refnum"; };
+};
