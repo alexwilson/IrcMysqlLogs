@@ -27,24 +27,7 @@ If I'm not there, say my nick on IRC and I'll hear it.
 Usage
 ==========
 
-1. Copy the files into your $HOME directory:
-`
-makedb.sh
-
-.irssi/
-
-|---config
-
-|-+-scripts/
-
-| |-irclogs.pl
-
-|---start.sh
-
-www/
-
-|---irclogs.php
-`
+1. Copy the files into your $HOME directory, making sure to rename irssi/ to .irssi/
 
 2) Edit www/irclogs.php, makedb.sh, .irssi/irclogs.pl, and change the password set for mysql in those files.
 
