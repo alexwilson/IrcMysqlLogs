@@ -29,23 +29,29 @@ Usage
 1. Copy the files into your $HOME directory:
 
 makedb.sh
+
 .irssi/
+
 |---config
+
 |-+-scripts/
+
 | |-irclogs.pl
+
 |---start.sh
+
 www/
+
 |---irclogs.php
 
 
-3. Edit www/irclogs.php, makedb.sh, .irssi/irclogs.pl, and change the password set for mysql in those files.
+2) Edit www/irclogs.php, makedb.sh, .irssi/irclogs.pl, and change the password set for mysql in those files.
 
-4. Edit .irssi/config, and change or add channels/networks.
-
+3) Edit .irssi/config, and change or add channels/networks.
 You should make note that every channel this irssi cient is in will be automatically logged no matter what. Choose wisely.
 
-5. Run makedb.sh. It wll ask you for your database admin's password three times.
+4) Run makedb.sh. It wll ask you for your database admin's password three times.
 
-6. Run .irssi/start.sh. It will start irssi in a named and detached screen session. screen -ls and screen -x <session> to look at it. Ctrl-A then D to exit from the session.
+5) Run .irssi/start.sh. It will start irssi in a named and detached screen session. screen -ls and screen -x <session> to look at it. Ctrl-A then D to exit from the session.
 
 
