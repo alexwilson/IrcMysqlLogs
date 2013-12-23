@@ -20,8 +20,9 @@ Continued, unfortunately, without permission.
 Sean, if you're out there, here's a fixed/butchered one for you. Contact me on IRC if you read this. 
 
 
-Report errors to DJ_Arghlex (If I'm not there just say this in IRC and I'll hear you) on irc.stormbit.net in #stormbit or via PM.
+Report errors to DJ_Arghlex on irc.stormbit.net in #stormbit or via PM.
 ==========
+If I'm not there, say my nick on IRC and I'll hear it.
 
 Usage
 ==========
@@ -29,12 +30,19 @@ Usage
 1. Copy the files into your $HOME directory:
 `
 makedb.sh
+
 .irssi/
+
 |---config
+
 |-+-scripts/
+
 | |-irclogs.pl
+
 |---start.sh
+
 www/
+
 |---irclogs.php
 `
 
