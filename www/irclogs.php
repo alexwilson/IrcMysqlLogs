@@ -40,7 +40,7 @@ print('<!DOCTYPE html>
 		<div class="container">
 			<div class="mainbody">');
 $user_name = "irclogs";
-$password = "ircLogger@))";
+$password = "rly now";
 $database = "irclogs";
 $dbserver = "localhost";
 $table = "irclogs";
